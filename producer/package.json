@@ -1,0 +1,7 @@
+{
+  "name": "producer",
+  "main": "index.js",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
+}
