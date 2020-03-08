@@ -2,8 +2,8 @@ version: '3.6'
 services:
   timescale:
     build:
-      context: ./
-      dockerfile: db.Dockerfile
+      context: ./timescale
+      dockerfile: Dockerfile
     restart: always
     environment:
       POSTGRES_PASSWORD: postgrespassword
